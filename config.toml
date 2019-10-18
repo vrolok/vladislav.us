@@ -1,0 +1,51 @@
+baseURL = "http://vladislav.us"
+languageCode = "en-us"
+title = "Vlad Bereznyuk"
+theme = ""
+paginate = 5
+
+# Enable syntax highlighting.
+pygmentsstyle = "vs"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
+
+[params]
+  subtitle= "DevOps Enginner / Software Developer"
+  interests="DevOps Practices, Web Developement"
+  mainSections = ["posts"]
+  cv_name= ""
+  blog=""
+
+[[menu.main]]
+  name = "Home"
+  url = "/"
+  weight = 1
+
+[[menu.main]]
+  name = "All posts"
+  url = "/posts"
+  weight = 2
+
+[[menu.main]]
+  name = "About"
+  url = "/about"
+  weight = 3
+
+[[menu.main]]
+  name = "Tags"
+  url = "/tags"
+  weight = 4
+
+[[params.social]]
+  name = "GitHub"
+  icon = "github"
+  url = "https://github.com/vrolok"
+
+[[params.social]]
+  name = "LinkedIn"
+  icon = "linkedin"
+  url = "https://www.linkedin.com/in/vlad-bereznyuk/"
+
+
+[[params.introduction.paragraph]]
+  text= "Test"
